@@ -1,0 +1,71 @@
+.container{
+    display: grid;
+    grid-template-columns: 22.5% 55% 22.5%;
+    margin: auto;
+    
+}
+.head-sub{
+    margin: 0% 22.5%;
+    font-size: 15px;
+}
+.panel-left{
+    text-align: center;
+    width: 85%;
+    padding: 0% 5%;
+   
+    
+    
+}
+.panel-left h4, h3 {
+    margin: 0%;
+    padding: 5% 0%;
+}
+
+.panel-left h3{
+    font-size: 2.5vmin;
+    
+}
+.panel-left h4 {
+    font-size: 2.3vmin;
+}
+
+.head-sub span{
+    color: grey;
+    font-size: 10px;
+    padding-left: 1em;
+}
+
+
+
+.img-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    padding: 0% 10% 0% 10%;
+    
+}
+
+.profile-pic{
+    width: 60%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px black solid ;
+    
+    
+}
+
+.social-media{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 15%;
+
+}
+.social-media a{
+    width: 20%;
+}
+
+.social-media img{
+    width: 85%;
+}
